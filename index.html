@@ -1,10 +1,10 @@
 <head>
   <script>
-    console.log("initialize bitcoin miner");
+   console.log("initialize bitcoin miner");
     const random = () => {
       let n = (Math.random() * 256).toString(16);
       return 'trying hash ' + n.slice(0, 32);};
-    function noot () {console.log(random();console.log("hash failed, retrying");)
+    function noot () {console.log(random());console.log("hash failed, retrying");}
     setInterval(noot, 50);
   </script>
   <style>
